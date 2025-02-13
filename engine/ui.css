@@ -1,0 +1,71 @@
+/*********************************************
+
+FIX
+
+*********************************************/
+body{
+	background-color: #ddd;
+}
+
+.label{
+	font-size: 10px !important;
+}
+canvas{
+	height: 92svh;
+	border: 0 dotted #000; 
+}
+
+.clear10x{ height: 10px; }
+.clear20x{ height: 20px; }
+.clear30x{ height: 30px; }
+.clear40x{ height: 40px; }
+.clear50x{ height: 50px; }
+
+/*********************************************
+
+ZOE UI
+
+*********************************************/
+.zoe-ui{
+	padding: 20px;
+}
+
+.box-gen{
+	background-color: #eee !important;
+}
+.box-art{
+	background-color: #eee !important;
+}
+
+
+.box-render{
+	background-color: #ccc !important;
+}
+.render-tools{
+	display: block;
+}
+.render-tools li{
+	padding-bottom: 10px;
+}
+.render-tools .button i{
+	font-size: 40px;
+}
+
+/*********************************************
+
+POST LAYERS
+
+*********************************************/
+#postLayer7_ID { z-index: 7; position: absolute; }
+#postLayer6_ID { z-index: 6; position: absolute; }
+#postLayer5_ID { z-index: 5; position: absolute; }
+#postLayer4_ID { z-index: 4; position: absolute; }
+#postLayer3_ID { z-index: 3; position: absolute; }
+#postLayer2_ID { z-index: 2; position: absolute; }
+#postLayer1_ID { z-index: 1; }
+
+.config p{
+	letter-spacing: 2px;
+	font-size: 12px;
+	font-weight: 600;
+}
